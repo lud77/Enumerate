@@ -1,5 +1,5 @@
-import { TouchableOpacity, View, Text } from "react-native";
-import { counterItemStyles } from "../styles";
+import { StyleSheet, TouchableOpacity, View, Text } from "react-native";
+
 import { Counter } from "../types";
 
 // Counter Item Component
@@ -18,5 +18,45 @@ const CounterItem: React.FC<{
     </TouchableOpacity>
   </View>
 );
+
+const counterItemStyles = StyleSheet.create({
+  counterItem: {
+    flexDirection: 'row',
+    backgroundColor: '#fff',
+    padding: 16,
+    borderRadius: 12,
+    marginBottom: 12,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  counterInfo: {
+    flex: 1,
+  },
+  counterTitle: {
+    fontSize: 18,
+    fontWeight: '600',
+    color: '#333',
+    marginBottom: 4,
+  },
+  counterValue: {
+    fontSize: 16,
+    color: '#666',
+  },
+  incrementButton: {
+    backgroundColor: '#34C759',
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+    borderRadius: 8,
+    justifyContent: 'center',
+  },
+  incrementButtonText: {
+    color: '#fff',
+    fontWeight: '600',
+    fontSize: 16,
+  },
+});
 
 export default CounterItem;
