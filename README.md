@@ -37,7 +37,7 @@
 <h3 align="center">Enumerate</h3>
 
   <p align="center">
-    Track your habits and smash your goals!
+    Track your progress and smash your goals!
     <!-- br />
     <a href="https://github.com/lud77/Enumerate"><strong>Explore the docs »</strong></a -->
     <br />
@@ -84,7 +84,7 @@
   <img src="ret/screenshot-2.png" alt="Image 2" width="25%" />
 </p>
 
-Enumerate is an habit tracker app that makes it easier to structure your day. Add your goals and complete them as you go. Start again tomorrow!
+Enumerate is an counter. Use it to keep track of how many repetitions of anything you are doing. It can handle multiple counters.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
